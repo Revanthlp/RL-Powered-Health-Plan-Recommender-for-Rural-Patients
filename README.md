@@ -1,10 +1,21 @@
 # RL-Powered-Health-Plan-Recommender-for-Rural-Patients
 # RL-Powered Health Plan Recommender (Java)
 
-This project uses tabular Q-learning to recommend optimal health plans (Basic, Enhanced, Premium) to simulated rural patients based on simplified health and socio-economic features.
+A simple Q-learning-based recommender system for suggesting health plans to rural patients, implemented in Java.
 
-## 🚀 How to Run
+## Features
 
-```bash
-javac HealthPlanRecommender.java
-java HealthPlanRecommender
+- Simulates rural patient profiles
+- Recommends one of 3 health plans
+- Learns a policy using Q-learning
+
+## Requirements
+
+- Java 8 or higher
+
+## How to Run
+
+1. Compile the Java file:
+
+   ```bash
+   javac src/HealthPlanRecommender.java
